@@ -2724,7 +2724,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 168.91 38.1 90)
 			(effects
 				(font
@@ -2751,6 +2751,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -2960,7 +2969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 134.62 43.1799 0)
 			(effects
 				(font
@@ -2988,6 +2997,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -3299,7 +3317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 111.76 43.1799 0)
 			(effects
 				(font
@@ -3327,6 +3345,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -3369,7 +3396,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz"
 			(at 185.42 58.4199 90)
 			(effects
 				(font
@@ -3397,6 +3424,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -3439,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 100.33 120.6499 0)
 			(effects
 				(font
@@ -3467,6 +3503,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 97.79 119.38 0)
 			(effects
 				(font
@@ -3573,7 +3618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 241.3 63.4999 0)
 			(effects
 				(font
@@ -3601,6 +3646,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 238.76 62.23 0)
 			(effects
 				(font
@@ -3643,7 +3697,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 KHz"
 			(at 50.8 55.8799 90)
 			(effects
 				(font
@@ -3671,6 +3725,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 46.99 54.61 0)
 			(effects
 				(font
@@ -3712,7 +3775,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 181.61 76.2 90)
 			(effects
 				(font
@@ -3739,6 +3802,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 181.61 80.01 0)
 			(effects
 				(font
@@ -3957,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 90.17 120.6499 0)
 			(effects
 				(font
@@ -3985,6 +4057,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -4027,7 +4108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 182.88 24.1299 0)
 			(effects
 				(font
@@ -4055,6 +4136,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 179.07 22.86 0)
 			(effects
 				(font
@@ -4097,7 +4187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 171.45 67.3099 0)
 			(effects
 				(font
@@ -4125,6 +4215,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -4167,7 +4266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 171.45 53.3399 0)
 			(effects
 				(font
@@ -4195,6 +4294,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 167.64 52.07 0)
 			(effects
 				(font
@@ -4314,7 +4422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 120.65 43.1799 0)
 			(effects
 				(font
@@ -4342,6 +4450,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 118.11 41.91 0)
 			(effects
 				(font
@@ -4384,7 +4501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100nF"
 			(at 242.57 32.1309 0)
 			(effects
 				(font
@@ -4412,6 +4529,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 238.76 31.75 0)
 			(effects
 				(font
