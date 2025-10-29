@@ -1,4 +1,6 @@
 fp-info-cache
 MCU-Datalogger-backups/*
 Gerber/*
+2_layer_MCU_Datalogger_Gerbers/*
+4_layer_MCU_Datalogger_Gerbers/*
 *.lck
