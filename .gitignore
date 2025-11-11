@@ -4,3 +4,4 @@ Gerber/*
 2_layer_MCU_Datalogger_Gerbers/*
 4_layer_MCU_Datalogger_Gerbers/*
 *.lck
+*.kicad_prl
