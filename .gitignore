@@ -3,5 +3,7 @@ MCU-Datalogger-backups/*
 Gerber/*
 2_layer_MCU_Datalogger_Gerbers/*
 4_layer_MCU_Datalogger_Gerbers/*
+2_layer_MCU_Datalogger_Gerbers.zip
+4_layer_MCU_Datalogger_Gerbers.zip
 *.lck
 *.kicad_prl
