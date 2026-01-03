@@ -2362,33 +2362,34 @@
 	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "623eb17b-7b8e-4443-a756-94e42a6682bb")
-		(at 67.38 86.31 90)
+		(at 67.46 85.76 -90)
 		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 		(tags "SMD SMT Crystal")
-		(property "Reference" "Y1"
+		(property "Reference" "32.768 KHz"
 			(at 0 -2 90)
 			(layer "F.SilkS")
 			(uuid "d5e3e475-5eca-438e-b0de-a8c53e3c305e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
-		(property "Value" "32.768 KHz"
-			(at 0 2 90)
+		(property "Value" "32.768"
+			(at 2.61 -0.23 180)
 			(layer "F.Fab")
 			(uuid "6d1440a3-81e7-4036-8014-3e0375ac7ede")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2401,7 +2402,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2414,7 +2415,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2432,16 +2433,6 @@
 		(sheetfile "MCU Datalogger.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.675 -0.875)
-			(end 0.675 -0.875)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "93d8725f-6868-4e08-91b0-9f438d8dad9d")
-		)
-		(fp_line
 			(start -0.675 0.875)
 			(end 0.675 0.875)
 			(stroke
@@ -2452,34 +2443,14 @@
 			(uuid "acb9e781-5322-44fc-91b6-4d4e4f38a072")
 		)
 		(fp_line
-			(start 2 -1.15)
-			(end 2 1.15)
+			(start -0.675 -0.875)
+			(end 0.675 -0.875)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ff85f56c-20da-4949-846b-2f9b3a82d70b")
-		)
-		(fp_line
-			(start -2 -1.15)
-			(end 2 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f0278067-8449-4415-9bc7-0acc6d2fe755")
-		)
-		(fp_line
-			(start -2 -1.15)
-			(end -2 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fd1549e9-4839-467f-9783-e9a4b867dbdc")
+			(layer "F.SilkS")
+			(uuid "93d8725f-6868-4e08-91b0-9f438d8dad9d")
 		)
 		(fp_line
 			(start -2 1.15)
@@ -2492,24 +2463,44 @@
 			(uuid "11c1bc94-c68d-4c3d-8d3e-4c7646ddc9ec")
 		)
 		(fp_line
-			(start 1.6 -0.75)
+			(start -2 -1.15)
+			(end -2 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd1549e9-4839-467f-9783-e9a4b867dbdc")
+		)
+		(fp_line
+			(start -2 -1.15)
+			(end 2 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0278067-8449-4415-9bc7-0acc6d2fe755")
+		)
+		(fp_line
+			(start 2 -1.15)
+			(end 2 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff85f56c-20da-4949-846b-2f9b3a82d70b")
+		)
+		(fp_line
+			(start -1.6 0.75)
 			(end 1.6 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2618738e-3550-4a94-b4ca-34add3dba38a")
-		)
-		(fp_line
-			(start -1.6 -0.75)
-			(end 1.6 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a00c1bbc-36a8-4725-b11c-fff7375e6874")
+			(uuid "ad60cdcc-179c-4142-acd1-a952144aa833")
 		)
 		(fp_line
 			(start -1.6 -0.75)
@@ -2522,17 +2513,27 @@
 			(uuid "e83d885b-abc7-4109-8cd0-1416ebb4eb39")
 		)
 		(fp_line
-			(start -1.6 0.75)
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a00c1bbc-36a8-4725-b11c-fff7375e6874")
+		)
+		(fp_line
+			(start 1.6 -0.75)
 			(end 1.6 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad60cdcc-179c-4142-acd1-a952144aa833")
+			(uuid "2618738e-3550-4a94-b4ca-34add3dba38a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at -2.87 -0.35 90)
 			(layer "F.Fab")
 			(uuid "4c1966f5-69bf-4aeb-bd9e-69316890384f")
 			(effects
@@ -2543,7 +2544,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 1.25 0 90)
+			(at 1.25 0 270)
 			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "Net-(U3-X2)")
@@ -2552,7 +2553,7 @@
 			(uuid "b8c2c378-bfb3-4e62-8c99-f2489cf5d0c5")
 		)
 		(pad "2" smd rect
-			(at -1.25 0 90)
+			(at -1.25 0 270)
 			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "Net-(U3-X1)")
@@ -8541,6 +8542,17 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "KHz"
+		(at 67.35 89.31 0)
+		(layer "F.Fab")
+		(uuid "db1bdcce-1ae5-44a7-a0d3-c85bb7acefff")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Copper Layer Count: "
 		(at 125.642857 76.94 0)
 		(layer "User.1")
@@ -11234,20 +11246,20 @@
 		(uuid "af9a7934-79d2-4e41-9526-9a606f642c88")
 	)
 	(segment
-		(start 70.02 84.5)
+		(start 66.52 84.5)
 		(end 73.3875 84.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "7b863eed-b9b7-45a7-a5d8-7c3bc46f34e9")
+		(uuid "068fdb9d-64b3-4569-bbd0-fdfa5a143e03")
 	)
 	(segment
-		(start 67.945 83.7)
-		(end 69.22 83.7)
+		(start 66.51 84.49)
+		(end 66.52 84.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "a6eb313f-c9e0-4a44-a77e-ceb9c0a82b00")
+		(uuid "4c57ef42-748f-47a7-98e5-1413d2a606d9")
 	)
 	(segment
 		(start 73.3875 84.5)
@@ -11255,39 +11267,31 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "a802cca3-edae-4016-878b-ab37951707bd")
+		(uuid "73a95f95-b1d5-416c-ade8-f4347b40e41e")
 	)
 	(segment
-		(start 69.22 83.7)
-		(end 70.02 84.5)
+		(start 66.51 86.99)
+		(end 69.21 86.99)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 24)
-		(uuid "edd1aac6-4307-4643-9736-2e117e0e0bb3")
+		(net 25)
+		(uuid "22e53983-5d0d-45f2-8cc1-13b97007c3e4")
 	)
 	(segment
-		(start 70.565 85.725)
+		(start 69.21 86.99)
+		(end 70.475 85.725)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "249aeead-3e83-4657-bf12-bf2c68ac271e")
+	)
+	(segment
+		(start 70.475 85.725)
 		(end 73.4325 85.725)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 25)
-		(uuid "a386f806-e474-4add-b721-ff1ecaa26e07")
-	)
-	(segment
-		(start 67.945 88.345)
-		(end 70.565 85.725)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 25)
-		(uuid "bf1231aa-ef12-4816-8c8c-404270472ef3")
-	)
-	(segment
-		(start 67.945 88.9)
-		(end 67.945 88.345)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 25)
-		(uuid "e6990ebe-7e51-4ee0-8592-738c5d59e21e")
+		(uuid "e820b4d6-4226-4666-8c5d-db75b166ad3d")
 	)
 	(segment
 		(start 79.3675 86.995)
